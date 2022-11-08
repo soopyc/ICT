@@ -1,5 +1,6 @@
 {
-  "name": "ICT",
+  "name": "ict",
+  "private": true,
   "packageManager": "yarn@3.2.4",
   "devDependencies": {
     "@parcel/transformer-sass": "2.7.0",
