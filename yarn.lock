@@ -307,7 +307,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@parcel/core@npm:2.7.0":
+"@parcel/core@npm:2.7.0, @parcel/core@npm:^2.7.0":
   version: 2.7.0
   resolution: "@parcel/core@npm:2.7.0"
   dependencies:
@@ -1761,6 +1761,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ict@workspace:."
   dependencies:
+    "@parcel/core": ^2.7.0
     "@parcel/transformer-sass": 2.7.0
     parcel: ^2.7.0
   languageName: unknown
