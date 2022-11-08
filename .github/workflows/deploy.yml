@@ -36,6 +36,12 @@ jobs:
         uses: actions/setup-node@v3.5.1
         with:
           node-version: v18.x
+      - name: Cache Dependencies
+        uses: actions/cache@v3.0.11
+        with:
+          key: ${{ runner.os }}-build-${{ hashFiles('**/yarn.lock') }}
+      - name: Install Dependencies
+        run: yarn install
       - name: Build Site
         run: yarn build
       - name: Upload artifact
