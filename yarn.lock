@@ -948,15 +948,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ICT@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "ICT@workspace:."
-  dependencies:
-    "@parcel/transformer-sass": 2.7.0
-    parcel: ^2.7.0
-  languageName: unknown
-  linkType: soft
-
 "abbrev@npm:^1.0.0":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -1765,6 +1756,15 @@ __metadata:
   checksum: 3f60d47a5c8fc3313317edfd29a00a692cc87a19cac0159e2ce711d0ebc9019064108323b5e493625e25594f11c6236647d8e256fbe7a58f4a3b33b89e6d30bf
   languageName: node
   linkType: hard
+
+"ict@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "ict@workspace:."
+  dependencies:
+    "@parcel/transformer-sass": 2.7.0
+    parcel: ^2.7.0
+  languageName: unknown
+  linkType: soft
 
 "immutable@npm:^4.0.0":
   version: 4.1.0
